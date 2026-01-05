@@ -12,18 +12,17 @@ contributed most to the predictions.
 
 ## Results
 
-- **Logistic Regression** achieved an accuracy of 0.98, with precision/recall of 0.98/0.98 for malignant and 0.99/0.99 for benign cases on the test set. [conversation_history:1]  
-- **Random Forest** achieved an accuracy of 0.96, with precision/recall of 0.95/0.93 for malignant and 0.96/0.97 for benign cases on the test set. [conversation_history:1]
+- **Logistic Regression** achieved an accuracy of 0.98, with precision/recall of 0.98/0.98 for malignant and 0.99/0.99 for benign cases on the test set.
+- **Random Forest** achieved an accuracy of 0.96, with precision/recall of 0.95/0.93 for malignant and 0.96/0.97 for benign cases on the test set. 
 
 ## Conclusion
 
-In this dataset, tumour size (e.g. mean radius in millimetres) is
+In this dataset, tumour size (mean radius in millimetres) is
 positively associated with malignancy, with larger tumours more likely
 to be classified as malignant. Logistic Regression and Random Forest
-models both achieved good predictive performance on this classification
-task. [file:22]
+models were both shown to be good predictors for tumour type.
 
 ## File
 
 - `breast_cancer_prediction_classifier_model.ipynb`: EDA, preprocessing,
-  model training, and evaluation. [file:22]
+  model training, and evaluation.
